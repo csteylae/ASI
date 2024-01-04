@@ -1,0 +1,72 @@
+%%%%%%%%%%%%%%%%%%%STETTINGS%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[12pt]{report}
+\usepackage{hyperref}
+\usepackage[style=verbose, autocite=footnote, backend=biber]{biblatex}
+\addbibresource{ref.bib} 
+\usepackage{graphicx} 
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+%\usepackage[french]{babel}
+\usepackage[greek,french]{babel}
+\usepackage[margin=2.5cm, left=3.5cm]{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{comment}
+\usepackage[export]{adjustbox}
+\usepackage{pdfpages}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\titleformat{\section}{}{}{0em}{\bf\LARGE}
+	\titleformat{\subsection}{}{}{0em}{\bf\Large}
+	\titleformat{\subsubsection}{}{}{0em}{\bf\normalsize}
+ 
+\titleformat{\chapter}[hang]{\bf\huge}{\thechapter}{2pc}{}
+
+
+%%%%DOCUMENT%%%%
+
+%%\setcounter{tocdepth}{6}
+\begin{document}
+
+    \begin{titlepage}
+        \begin{center}
+        \includegraphics[width=0.1\textwidth, margin= 0 -1.5cm 0 0]{l.jpg}
+        \includegraphics[width=0.8\textwidth]{u.jpg}
+        \vspace{0.5cm}
+      \newline Faculté de Lettres, Traduction et Communication
+     \end{center}
+     \vspace*{1cm}
+     Master Sciences et Technologies de l'Information et de la Communication
+     \newline STIC-B415  Architecture des systèmes d'information 
+       \vspace*{0,5cm}
+        \newline Professeur : Sébastien de Valeriola
+        \newline Assistant : Guillaume Quintin
+     \newline 8 janvier 2024.
+      \vspace*{0,5cm}
+     \newline \rule{11cm}{0,02cm}
+     \vspace*{1,5cm}
+     \newline \textbf{{\Large Le développement et l'application d'ontologies dans le contexte archivistique}}
+       \vspace*{0,5cm}
+        %\vspace*{0,5cm}
+     \vspace*{1cm}
+     \newline Chloé Steylaers
+     \newline 000427498
+     \vspace*{1,5cm}
+     \newline \rule{4cm}{0,02cm}
+\end{titlepage}
+\section{Introduction}
+Dans le cadre du cours d'Architecture des Systèmes d'Informations dispensé dans le master en Sciences et Technologies de l'Information et de la Communication à l'ULB, il nous a été demandé de rédiger un article reprenant l'une ou plusieurs thématique dudit cours. Notre choix s'est porté sur les différents modèles de données, et particulièrement sur les données liées (ou \textit{linked data}) dans le cadre du monde archivistique. Cet article est structuré de la façon suivante. Tout d'abord, nous présenterons fort brièvement les évolutions récentes de l'archivistique et ses défis actuels, à savoir la gestion des archives numériques et les enjeux d'accessibilités de cette dernières. Nous présenterons ensuite les ontologies principales développées dans le contexte du patrimoine culturel avec leur spécifités propres. Nous présenterons ensuite quelques études de cas pratiques réalisés ou en cours de réalisations. Nous achèverons finalement ce travail par une courte discussion sur ces différents enjeux. 
+\section{Les évolutions de l'archivistique}
+La conservations de traces relatives aux humains est une activité extrêmement ancienne, voire plus ancienne que l'écriture. Les modes de conservations sont changeant en fonction des sociétés. La discipline archivistique telles que nous la connaissons aujourd'hui particulièrement dans nos régions remontent aux 17-18ème siècles et la discipline se spécialise encore dans le courant du 19eme siècle. En tant que discipline, l'archivistique continue d'évoluer en même temps que les sociétés dans lesquelles elle se développe. Par cela même, la gestion de l'information archivistique, de la nature même de l'archive, et les grands concepts prévalant à sa conservation et à son archivisation (le fait de la conserver et rendre accessible) a également beaucoup évoluer. AU 19eme siècle vient la notion de respect de l'intégrité et de la provenance des ressources, et sur ces normes archivistiques se sont ensuite greffés des pratiques de descriptions de ces dits fonds. Parmi ces normes, on retrouve la norme ISAD-(G), qui décrit une pièce ou un fonds d'archive de façon hiérarchiques. Aujourd'hui, les différentes spécialisations des disciplines qui travaillent avec des archives (principalement des archivistes et des historiens) rendent de plus en plus complexe la communication entre les différentes disciplines. A cette complexification et specialisation disciplinaire s'ajoute et travaille de concert les défis du monde contemporains de gestion de l'information de plus en plus croissant. En effet, la quantité d'archives contemporaines est absolument gigantesque et de nombreux problèmes de sa conservation se posent. La conservation de tous ces formats matériels papiers posent des enjeux de place et de gestion, mais vient également avec cela l'augmentation croissante d'archives née numériquement. La numérisation des archives et la conservation numérique de ces dernières posent également des enjeux de pérrenité qu'il va falloir gérer. 
+En outre, le développement du web et des ressources en ligne a également bouleversé les systèmes d'informations, en rendant d'une façon nouvelle accessible de grandes quantités de ressources. Le monde des archives, des bibliothèques et autres sciences du patrimoines ne sont donc pas resté en reste, et, évoluant avec la société, onnt cherché et cherchent à améliorer les systèmes de transmissions des connaissances et d'accessibilités de leur collection.
+\section{Le web sémantique}
+C'est dans le contexte du développement du web et de ses outils que s'est porté la reflexion autours des \textit{linked data} et du développement d'ontologies propres aux mondes du patrimoine.
+\subsection{Défis du web sémantique}
+\section{L'application de modèles de données ontologiques pour les archives}
+\section{Le modèle CIDOC-CRM}
+\section{Exemples de projet en cours}
+\subsection{ArchOnto au Portugal}
+\section{Conclusion}
+
+\end{document}
