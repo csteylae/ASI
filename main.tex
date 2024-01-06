@@ -66,20 +66,34 @@ Cette complexification disciplinaire s'accompagne des défis contemporains liés
 
 En outre, l'avènement du web et des ressources en ligne a profondément transformé les systèmes d'information, rendant accessibles de vastes quantités de ressources de manière inédite. Les domaines des archives, des bibliothèques et des autres sciences du patrimoine ne sont pas restés en marge de ces évolutions. En s'adaptant aux changements sociétaux, ces disciplines cherchent à améliorer les systèmes de transmission des connaissances et l'accessibilité de leurs collections.
 \section{Le web sémantique}
-Dans le cadre évolutif du World Wide Web et de ses outils, une réflexion approfondie a été menée autour des données liées (\textit{linked data}) et du développement d'ontologies spécifiques aux domaines du patrimoine culturel et historique. Le concept du web sémantique, bien que pas entièrement récent dans le contexte des avancées technologiques, a été introduit par Tim Berners-Lee au tournant du 21e siècle. Fondamentalement, le web sémantique, également désigné sous le terme de web 3.0, vise à étendre les capacités du web actuel en facilitant l'accès et l'interopérabilité des données. Cette avancée est marquée par l'adoption de technologies favorisant une structuration, une connexion et une interprétation améliorées des données web.
+Dans le cadre évolutif du World Wide Web et de ses outils, une réflexion approfondie a été menée autour des données liées (\textit{linked data}) et du développement d'ontologies spécifiques aux domaines du patrimoine culturel et historique. Le concept du web sémantique, bien qu'il ne soit pas entièrement récent dans le contexte des avancées technologiques, a été introduit par Tim Berners-Lee au tournant du 21e siècle. Fondamentalement, le web sémantique, également désigné sous le terme de web 3.0 ou encore web de données par opposition au web des documents, vise à étendre les capacités du web actuel en facilitant l'accès et l'interopérabilité des données. Cette avancée est marquée par l'adoption de technologies favorisant une structuration, une connexion et une interprétation améliorées des données web.
 
 Au cœur du web sémantique se trouve la standardisation des données, rendue possible par des langages tels que le RDF (Resource Description Framework) et l'OWL (Web Ontology Language). Ces outils sont essentiels pour établir des relations complexes entre les données, facilitant ainsi la création de métadonnées qui sont interprétables tant par les humains que par les machines.
 
-L'ontologie joue un rôle primordial dans le web sémantique. Elle représente une méthode formelle pour définir les types, les propriétés et les relations entre les entités, permettant ainsi aux machines de traiter et d'interpréter le contenu du web de manière plus raffinée. Cette capacité améliore significativement la recherche et l'extraction de données, en fournissant des résultats plus pertinents et précis.
+\subsection{Les ontologies}
+L'ontologie (de onto-, tiré du grec \textgreek{ὤν, ὄντος} « étant », participe présent du verbe \textgreek{εἰμί} « être ») joue de ce fait un rôle primordial dans le web sémantique. Ce terme est emprunté à la philosophie et désigne dans ce contexte le discours et questionnement relatif à l'être, l'étant. 
 
-De plus, le web sémantique ambitionne de rendre les données plus connectées et intégrées. Par le biais de liens sémantiques, il est possible d'agréger des informations issues de sources variées pour obtenir une perspective complète et détaillée sur un sujet donné.
+Le concept d'ontologie informatique s'est quant à lui développé dans le cadre des recherches en intelligence artificielle symbolique. L'intelligence artificielle symbolique est un paradigme de recherche en intelligence artificielle qui consiste en l'utilisation de méthodes basées sur des symboles de haut niveau (comme étant compréhensible par l'humain) permettant de représenter des concepts, de la connaissance, des relations etc... Ce fut pendant longtemps le paradigme dominant dans les recherches en IA, avant d'être, au tournant des années 2010, devancée par le paradigme d'IA des données en apprentissage profond\autocite{GarneloShanahan2019}.
+Elle représente une méthode formelle pour définir les types, les propriétés et les relations entre les entités, permettant ainsi aux machines de traiter et d'interpréter le contenu du web de manière plus raffinée. Cette capacité améliore significativement la recherche et l'extraction de données, en fournissant des résultats plus pertinents et précis.
+\subsubsection{Ne pas confondre avec d'autres langages documentaires}
+De plus, le web sémantique ambitionne de rendre les données plus connectées et intégrées. Par le biais de liens sémantiques, il est en effet possible d'agréger des informations issues de sources variées pour obtenir une perspective complète et détaillée sur un sujet donné.
 
 Cependant, la mise en œuvre du web sémantique présente des défis, notamment en termes de conception d'ontologies robustes et de la gestion de la confidentialité et de la sécurité des données. Malgré ces difficultés, le potentiel du web sémantique pour révolutionner la façon dont nous accédons et utilisons les informations en ligne est immense, ouvrant la voie à des applications plus intelligentes et intuitives.
 \subsection{Défis du web sémantique}
+\newpage
+\section{Des modèles classificatoires traditionnels aux modèles conceptuels}
+Il ne fallut pas longtemps pour que les différents domaines composant ce champs disciplinaire ne s'approprient ces outils. En effet, l'avènement du web des données et les évolutions importantes de la recherche d'informations, combinée à un besoin de plus en plus palpable de nécessité d'intéropérabilité entre les différentes bases de données des institutions a fait fort réflechir les différents acteurs et institutions du monde du patrimoine culturel. Du fait de l'éclatement des formats de conservation audio, visuel, matériel, né numérique, il devient de plus en plus nécessaire de penser à des langages documentaires qui puissent prendre en compte cet état de fait. 
+Cela commence avec la mise edn place de modèle conceptuel dans le monde des bibliothèque (l'IFLA et le \textit{Functional Requirements for Bibliographic Records} (FRBR)\autocite{IFLA1997Functional} , le \textit{Conceptual Reference Model} (CRM-CIDOC) en 2000 dans le monde du musée. Depuis lors, une série de normes spécialisé dans la mise en place de modèle conceptuel spécialisé dans leur domaines respectifs\autocite{Koch2021Moving, LlanesPadron2023RiC-CM} . 
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale = 0.4]{evolution_CM.png}
+    \caption {L'évolution des modèles conceptuels/sémantiques. Issu de D. Llanes Padrón et M. Moro Cabero.}
+    \label{fig:enter-label}
+\end{figure}
+\newline
+\subsection{Le \textit{Record in Contexts standard}}
+Présenter les deux version du RIC et le RIC-O, les défis et applications déjà en place
 \section{L'application de modèles de données ontologiques pour les archives}
-\section{Le modèle CIDOC-CRM}
-\section{Exemples de projet en cours}
-\subsection{ArchOnto au Portugal}
 \section{Conclusion}
 
 \end{document}
