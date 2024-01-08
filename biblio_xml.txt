@@ -1,0 +1,184 @@
+<bibliography>
+  <entry id="Koch2021Moving">
+    <title>Moving from ISAD(G) to a CIDOC CRM-based Linked Data Model in the Portuguese Archives</title>
+    <author>I. Koch</author>
+    <author>C. Teixeira Lopes</author>
+    <author>C. Ribeiro</author>
+    <journal>ACM Journal of Computing and Cultural Heritage</journal>
+    <volume>1</volume>
+    <number>1</number>
+    <pages>1-23</pages>
+    <year>2021</year>
+    <publisher>ACM</publisher>
+    <doi>10.1145/3479713</doi>
+  </entry>
+
+  <entry id="LlanesPadron2023RiC-CM">
+    <title>RiC-CM en construcción: del modelo descriptivo sintáctico (2016) al semántico armonizador (2021)</title>
+    <author>D. Llanes Padrón</author>
+    <author>M. Moro Cabero</author>
+    <journal>Revista Española de Documentación Científica</journal>
+    <volume>46</volume>
+    <number>1</number>
+    <pages>e347</pages>
+    <year>2023</year>
+    <publisher>Consejo Superior de Investigaciones Científicas (CSIC)</publisher>
+    <doi>10.3989/redc.2023.1.1949</doi>
+  </entry>
+  
+  <entry id="GarneloShanahan2019">
+    <title>Reconciling deep learning with symbolic artificial intelligence: representing objects and relations</title>
+    <author>Marta Garnelo</author>
+    <author>Murray Shanahan</author>
+    <journal>Current Opinion in Behavioral Sciences</journal>
+    <volume>29</volume>
+    <year>2019</year>
+    <pages>17-23</pages>
+    <doi>10.1016/j.cobeha.2018.12.010</doi>
+    <url>https://www.sciencedirect.com/science/article/pii/S2352154618301943</url>
+  </entry>
+  
+  <entry id="IFLA1997Functional">
+    <title>Functional Requirements for Bibliographic Records</title>
+    <author>International Federation of Library Associations and Institutions</author>
+    <howpublished>Final Report of the IFLA Study Group on the Functional Requirements for Bibliographic Records</howpublished>
+    <note>Approved by the Standing Committee of the IFLA Section on Cataloguing</note>
+    <month>Sep</month>
+    <year>1997</year>
+  </entry>
+
+  <entry id="arapinis2018ontologie">
+    <title>Ontologie formelle (A)</title>
+    <author>Arapinis, Alexandra</author>
+    <year>2018</year>
+    <editor>Kristanek, Maxime</editor>
+    <booktitle>l'Encyclopédie philosophique</booktitle>
+    <url>https://encyclo-philo.fr/ontologie-formelle-a</url>
+    <note>Consulté le 5 janvier 2024</note>
+  </entry>
+
+  <entry id="inbook">
+    <title>Ontologies and knowledge bases: towards a terminological clarification</title>
+    <author>Guarino, Nicola</author>
+    <year>1995</year>
+    <month>01</month>
+    <pages>25-32</pages>
+  </entry>
+
+  <entry id="Gruber1995Ontologies">
+    <title>Toward Principles for the Design of Ontologies Used for Knowledge Sharing?</title>
+    <author>Thomas R. Gruber</author>
+    <journal>International Journal of Human-Computer Studies</journal>
+    <year>1995</year>
+    <volume>43</volume>
+    <number>5-6</number>
+    <pages>907-928</pages>
+    <issn>1071-5819</issn>
+    <doi>10.1006/ijhc.1995.1081</doi>
+    <url>https://doi.org/10.1006/ijhc.1995.1081</url>
+  </entry>
+
+  <entry id="ICA2016">
+    <title>Records in Contexts: A Conceptual Model for Archival Description</title>
+    <author>International Council on Archives, Experts Group on Archival Description</author>
+    <year>2016</year>
+    <month>sep</month>
+    <version>0.1</version>
+    <note>Consultation Draft</note>
+    <howpublished>egad@ica.org</howpublished>
+  </entry>
+
+  <entry id="ICARiCOv02">
+    <title>Records in Contexts Ontology (ICA RiC-O) version 0.2</title>
+    <author>Florence Clavaud</author>
+    <author>International Council on Archives Expert Group on Archival Description (ICA EGAD)</author>
+    <year>2021</year>
+    <month>feb</month>
+    <version>0.2</version>
+    <publisher>International Council on Archives</publisher>
+    <howpublished>https://www.ica.org/standards/RiC/RiC-O_v0-2.html</howpublished>
+    <annotation>Contributors include Aaron Rubinstein, Daniel Pitti, Miia Herrala, and Tobias Wildi.</annotation>
+  </entry>
+
+  <entry id="Duranti2001Impact">
+    <title>The Impact of Digital Technology on Archival Science</title>
+    <author>Luciana Duranti</author>
+    <journal>Archival Science</journal>
+    <year>2001</year>
+    <volume>1</volume>
+    <pages>39-55</pages>
+    <doi>10.1007/BF02435638</doi>
+    <url>https://doi.org/10.1007</url>
+  </entry>
+
+  <entry id="Taylor1987Transformation">
+    <title>Transformation in the Archives: Technological Adjustment or Paradigm Shift?</title>
+    <author>Hugh A. Taylor</author>
+    <journal>Archivaria</journal>
+    <year>1987</year>
+    <volume>25</volume>
+    <month>January</month>
+    <pages>12-28</pages>
+    <url>https://archivaria.ca/index.php/archivaria/article/view/11451</url>
+  </entry>
+
+  <entry id="MacNeil2007ArchivalTheory">
+    <title>Archival Theory and Practice: Between Two Paradigms</title>
+    <author>Heather MacNeil</author>
+    <journal>Archives & Social Studies: A Journal of Interdisciplinary Research</journal>
+    <year>2007</year>
+    <volume>1</volume>
+    <number>1</number>
+    <month>September</month>
+    <pages>517-545</pages>
+    <url>https://archivo.cartagena.es/doc/Archivos_Social_Studies/Vol1_n1/05-macneil_archival.pdf</url>
+  </entry>
+
+  <entry id="ColavizzaBlankeJeurgensetAl2021">
+    <title>Archives and AI: An Overview of Current Debates and Future Perspectives</title>
+    <author>Colavizza, Giovanni</author>
+    <author>Blanke, Tobias</author>
+    <author>Jeurgens, Charles</author>
+    <author>Noordegraaf, Julia</author>
+    <year>2021</year>
+    <month>05</month>
+    <pages></pages>
+  </entry>
+
+  <entry id="Spina2023AI">
+    <title>Artificial Intelligence in archival and historical scholarship workflow: HTS and ChatGPT</title>
+    <author>S. Spina</author>
+    <journal>Umanistica Digitale</journal>
+    <year>2023</year>
+    <volume>7</volume>
+    <number>16</number>
+    <pages>125-140</pages>
+    <doi>10.6092/issn.2532-8816/17205</doi>
+    <url>https://doi.org/10.6092/issn.2532-8816/17205</url>
+  </entry>
+
+  <entry id="RokeTillman2022PragmaticPrinciples">
+    <title>Pragmatic Principles for Archival Linked Data</title>
+    <author>Elizabeth Russey Roke</author>
+    <author>Ruth Kitchin Tillman</author>
+    <journal>The American Archivist</journal>
+    <year>2022</year>
+    <volume>85</volume>
+    <number>1</number>
+    <pages>173-201</pages>
+    <doi>10.17723/2327-9702-85.1.173</doi>
+    <url>https://doi.org/10.17723/2327-9702-85.1.173</url>
+  </entry>
+
+  <entry id="Brooks1990Elephants">
+    <title>Elephants Don't Play Chess</title>
+    <author>Rodney A. Brooks</author>
+    <journal>Robotics and Autonomous Systems</journal>
+    <year>1990</year>
+    <volume>6</volume>
+    <pages>3-15</pages>
+    <address>Cambridge, MA, USA</address>
+    <publisher>MIT Artificial Intelligence Laboratory</publisher>
+  </entry>
+
+</bibliography>
